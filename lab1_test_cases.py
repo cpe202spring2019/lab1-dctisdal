@@ -51,7 +51,7 @@ class TestLab1(unittest.TestCase):
         list_val = []
         low = 0
         high = len(list_val) - 1
-        self.assertEqual(bin_search(4, 0, len(list_val) - 1, list_val), [])
+        self.assertEqual(bin_search(4, 0, len(list_val) - 1, list_val), None)
 
     def test_bin_search_target_not_found(self):
         list_val = [1, 2, 3, 4, 7, 8, 9, 10]
